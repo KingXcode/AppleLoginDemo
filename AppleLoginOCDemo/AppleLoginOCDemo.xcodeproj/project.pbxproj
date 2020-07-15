@@ -14,7 +14,7 @@
 		32F4185024BF4A4A00B25985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F4184F24BF4A4A00B25985 /* Assets.xcassets */; };
 		32F4185324BF4A4A00B25985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F4185124BF4A4A00B25985 /* LaunchScreen.storyboard */; };
 		32F4185624BF4A4A00B25985 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F4185524BF4A4A00B25985 /* main.m */; };
-		32F4185F24BF4EAE00B25985 /* HTAppleLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F4185E24BF4EAE00B25985 /* HTAppleLoginTool.m */; };
+		32F4186324BF5B7700B25985 /* HTAppleLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F4186124BF5B7700B25985 /* HTAppleLoginTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		32F4185224BF4A4A00B25985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32F4185424BF4A4A00B25985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32F4185524BF4A4A00B25985 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32F4185D24BF4EAE00B25985 /* HTAppleLoginTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppleLoginTool.h; sourceTree = "<group>"; };
-		32F4185E24BF4EAE00B25985 /* HTAppleLoginTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppleLoginTool.m; sourceTree = "<group>"; };
+		32F4186124BF5B7700B25985 /* HTAppleLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAppleLoginTool.m; sourceTree = "<group>"; };
+		32F4186224BF5B7700B25985 /* HTAppleLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAppleLoginTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 				32F4184724BF4A4900B25985 /* SceneDelegate.m */,
 				32F4184924BF4A4900B25985 /* ViewController.h */,
 				32F4184A24BF4A4900B25985 /* ViewController.m */,
-				32F4185C24BF4E8C00B25985 /* AppleLogin */,
+				32F4186024BF5B7700B25985 /* AppleLogin */,
 				32F4184C24BF4A4900B25985 /* Main.storyboard */,
 				32F4184F24BF4A4A00B25985 /* Assets.xcassets */,
 				32F4185124BF4A4A00B25985 /* LaunchScreen.storyboard */,
@@ -80,14 +80,14 @@
 			path = AppleLoginOCDemo;
 			sourceTree = "<group>";
 		};
-		32F4185C24BF4E8C00B25985 /* AppleLogin */ = {
+		32F4186024BF5B7700B25985 /* AppleLogin */ = {
 			isa = PBXGroup;
 			children = (
-				32F4185D24BF4EAE00B25985 /* HTAppleLoginTool.h */,
-				32F4185E24BF4EAE00B25985 /* HTAppleLoginTool.m */,
+				32F4186224BF5B7700B25985 /* HTAppleLoginTool.h */,
+				32F4186124BF5B7700B25985 /* HTAppleLoginTool.m */,
 			);
 			path = AppleLogin;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -160,10 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32F4185F24BF4EAE00B25985 /* HTAppleLoginTool.m in Sources */,
 				32F4184B24BF4A4900B25985 /* ViewController.m in Sources */,
 				32F4184524BF4A4900B25985 /* AppDelegate.m in Sources */,
 				32F4185624BF4A4A00B25985 /* main.m in Sources */,
+				32F4186324BF5B7700B25985 /* HTAppleLoginTool.m in Sources */,
 				32F4184824BF4A4900B25985 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
