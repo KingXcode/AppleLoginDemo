@@ -10,17 +10,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "HTAppleLogin"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of HTAppleLogin."
-
-  spec.description  = <<-DESC
-                   DESC
+  spec.summary      = "调用苹果登陆 获取资料"
 
   spec.homepage     = "https://github.com/KingXcode/AppleLoginDemo"
   spec.license      = { :type => "MIT",}
   spec.author       = { "niesiyangPC" => "siyang.nie.520@gmail.com" }
   spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/KingXcode/AppleLoginDemo.git", :tag => "#{spec.version}" }
-  spec.source_files = "AppleLoginOCDemo", "AppleLogin/**/*.{h,m}"
+  spec.source_files = "AppleLoginOCDemo/AppleLogin/*.{h,m}"
 
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
